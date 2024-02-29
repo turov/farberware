@@ -10,6 +10,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: var(--color-background);
+    background: linear-gradient(0deg, rgb(192, 192, 192) 0%, rgba(255,255,255,1) 100%);
     color: var(--color-text);
 }
 

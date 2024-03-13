@@ -28,16 +28,16 @@
 
 .categories__item-new {
     background-image: linear-gradient(45deg, #FFD194, #D1913C);
-    display: flex;
-    flex-direction: column;
     width: calc(50% - 16px);
     padding: 16px;
     flex-grow: 1;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
+
 .categories__item-new:last-child {
     width: 100%;
+    height: 200px;
 }
 
 .categories__item-new img {
@@ -51,6 +51,14 @@
     color: white;
     text-decoration: none;
     text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.categories__item-new:last-child img {
+    height: 160px;
+    width: auto;
 }
 
 .categories__item {
@@ -141,5 +149,10 @@
     .categories__item-new,
     .categories__item-new:last-child {
         width: calc(33.33% - 11px);
+        height: unset;
+    }
+
+    .categories__item-new:last-child img {
+        height: unset;
     }
 }

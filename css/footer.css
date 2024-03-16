@@ -1,6 +1,6 @@
 .footer {
-    background: var(--color-footer);
-    color: var(--color-background);
+    background: var(--color-background);
+    color: var(--color-footer);
 }
 
 .footer__container {
@@ -17,7 +17,7 @@
 }
 
 .footer__nav-link {
-    color: var(--color-background);
+    color: var(--color-footer);
     text-decoration: none;
 }
 

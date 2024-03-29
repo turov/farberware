@@ -30,5 +30,8 @@
 
     .banner-video {
         max-width: 1440px;
+        max-height: 600px;
+        object-fit: cover;
+        object-position: top;
     }
 }

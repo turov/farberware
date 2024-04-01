@@ -2,6 +2,9 @@
     padding: 28px 0 0;
     position: relative;
     margin-bottom: 28px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1470px;
 }
 
 .poster img {

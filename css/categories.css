@@ -27,7 +27,7 @@
 }
 
 .categories__item-new {
-    background-image: linear-gradient(45deg, #FFD194, #D1913C);
+    background-color: #b8dee2;
     width: calc(50% - 16px);
     padding: 16px;
     flex-grow: 1;
@@ -44,7 +44,7 @@
     display: block;
     max-width: 100%;
     margin: 0 auto;
-    filter: drop-shadow(0 0 0.75rem rgb(174, 123, 42));
+    filter: drop-shadow(0 0 0.75rem #93dfe3);
     transform: scale(1);
     transition: all 0.4s ease;
 }
